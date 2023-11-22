@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8" />
     <title>TransNET</title>
@@ -25,10 +26,11 @@
 
 <body class="bg-slate-200">
     <!--Menu Bar-->
-    <?php include "menu.php"; ?>
+    <?php include "include/menu.php"; ?>
     <!--Content-->
     <div>
         PTinfo
     </div>
 </body>
+
 </html>

@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <!--Menu Bar-->
+    <!--Footer-->
 
 </body>
 

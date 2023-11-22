@@ -26,7 +26,7 @@
 
 <body class="bg-slate-200">
     <!--Menu Bar-->
-    <?php include "menu.php"; ?>
+    <?php include "include/menu.php"; ?>
     <!--Content-->
     <div>
         Clinfo

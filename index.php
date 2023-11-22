@@ -24,13 +24,14 @@
     </script>
 </head>
 
-<body class="bg-slate-200">
+<body>
     <!--Menu Bar-->
     <?php include "include/menu.php"; ?>
     <!--Content-->
-    <div>
+    <div class="">
         Home
     </div>
+
 </body>
 
 </html>
