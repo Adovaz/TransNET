@@ -24,11 +24,11 @@
     </script>
 </head>
 
-<body class="bg-slate-800 text-white">
+<body class="dark:bg-slate-800 dark:text-white">
     <!--Menu Bar-->
     <?php include "include/menu.php"; ?>
     <!--Content-->
-    <div>
+    <div class="px-8">
         Clinfo
     </div>
 </body>
