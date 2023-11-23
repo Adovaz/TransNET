@@ -24,7 +24,7 @@
     </script>
 </head>
 
-<body class="bg-slate-200">
+<body class="bg-slate-800 text-white">
     <!--Menu Bar-->
     <?php include "include/menu.php"; ?>
     <!--Content-->
