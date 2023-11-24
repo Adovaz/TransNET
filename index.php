@@ -26,7 +26,9 @@
 
 <body class="dark:bg-slate-800 dark:text-white">
     <!--Menu Bar-->
-    <?php include "include/menu.php"; ?>
+    <?php
+    $page_on = "menu";
+    include "include/menu.php"; ?>
     <!--Content-->
     <div class="px-8">
         Home

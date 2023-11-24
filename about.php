@@ -29,8 +29,10 @@
     <?php include "include/menu.php"; ?>
     <!--Content-->
     <div class="px-8">
-        Clinfo
+        About
     </div>
+    <!--Footer-->
+    <?php include "include/footer.php"; ?>
 </body>
 
 </html>

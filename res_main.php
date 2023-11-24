@@ -29,8 +29,11 @@
     <?php include "include/menu.php"; ?>
     <!--Content-->
     <div class="px-8">
-        PTinfo
+        Resources
     </div>
+    <!--Footer-->
+    <?php include "include/footer.php"; ?>
+
 </body>
 
 </html>
