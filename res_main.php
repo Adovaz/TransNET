@@ -22,13 +22,14 @@
             },
         };
     </script>
+    <?php require __DIR__ . '/universal.php'; ?>
 </head>
 
-<body class="dark:bg-slate-800 dark:text-white">
+<body class="dark:bg-slate-800 dark:text-white min-h-screen flex flex-col">
     <!--Menu Bar-->
     <?php include "include/menu.php"; ?>
     <!--Content-->
-    <div class="px-8">
+    <div class="mx-4 mt-3 flex-grow">
         Resources
     </div>
     <!--Footer-->
