@@ -34,7 +34,7 @@
     $description = "Description of something and things ect.";
     $pdfUri = "comethin";
     $tile = new resourceTile($title, $description, $pdfUri);
-    $title -> display();
+    echo $tile->display();
     ?>
     <!--Footer-->
 <?php include "include/footer.php"; ?>
