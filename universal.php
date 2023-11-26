@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
 
-class resourceTile
+class ResourceTile
 {
     public string $title;
     public string $description;
@@ -23,11 +23,7 @@ class resourceTile
                                 $this->description
                             </div>
                             <div class="flex justify-center gap-4 pt-4 text-sm">
-                            <!--   <a href=""
-                                    class="p-2 text-center text-black rounded-md bg-violet-400 hover:bg-violet-500 focus:outline-none focus:ring focus:ring-violet-500">
-                                    View
-                                </a> -->
-                                <a href= $this->pdfUri
+                                <a href=$this->pdfUri
                                     class="p-2 text-center rounded-md bg-violet-400 hover:bg-violet-500 focus:outline-none focus:ring focus:ring-violet-500">
                                     <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20">
                                         <path

@@ -33,7 +33,7 @@
     $title = "Title";
     $description = "Description of something and things ect.";
     $pdfUri = "comethin";
-    $tile = new resourceTile($title, $description, $pdfUri);
+    $tile = new ResourceTile($title, $description, $pdfUri);
     echo $tile->display();
     ?>
     <!--Footer-->
