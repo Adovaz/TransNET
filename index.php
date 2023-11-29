@@ -28,14 +28,19 @@
     <!--Menu Bar-->
     <?php include "include/menu.php"; ?>
     <!--Content-->
-    <?php 
-    include "universal.php";
-    $title = "Title";
-    $description = "Description of something and things ect.";
-    $pdfUri = "comethin";
-    $tile = new ResourceTile($title, $description, $pdfUri);
-    echo $tile->display();
-    ?>
+    <div class="mx-4 mt-3 flex-grow">
+        <!--Section-->
+        <div class="grid grid-cols-5 gap-4 flex-wrap">
+            <?php 
+            require_once 'classes.php';
+            $title = "Title";
+            $description = "Description of something and things ect.";
+            $pdfUri = "comethin";
+            $tile = new ResourceTile($title, $description, $pdfUri);
+            echo $tile->display();     
+            ?>
+        </div>
+    </div>
     <!--Footer-->
 <?php include "include/footer.php"; ?>
 

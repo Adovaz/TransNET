@@ -30,7 +30,12 @@
     <?php include "include/menu.php"; ?>
     <!--Content-->
     <div class="mx-4 mt-3 flex-grow">
-        About
+        <div id="about" class="">
+            About
+        </div>
+        <div id="contact" class="">
+            Contact
+        </div>
     </div>
     <!--Footer-->
     <?php include "include/footer.php"; ?>
